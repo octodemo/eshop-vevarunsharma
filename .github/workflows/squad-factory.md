@@ -89,7 +89,8 @@ instructions.
 For a scheduled or manual run, select at most one eligible open signal, oldest
 first. Prefer issues containing `Factory-Signal:`. Never select an issue already
 labeled `squad` or `squad:*`, an `[aw]` issue, the Squad retrospective state
-issue, or a closed issue.
+issue (title exactly `Squad retrospective state` with label `squad-retro-state`),
+or a closed issue.
 
 ## Lifecycle controller
 
