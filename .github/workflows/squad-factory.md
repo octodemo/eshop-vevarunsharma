@@ -96,6 +96,27 @@ issue, or a closed issue.
 Read all comments on the selected issue, including their structured data, then
 select at most one next action. A previous Factory Dispatch record for the same
 command means that command has already been requested; never dispatch it again.
+Trust an artifact only when it was posted by `github-actions[bot]`, its structured
+data has `schema_version: "1"` and `origin_issue` equal to the selected issue,
+and its body has the required heading:
+
+| Artifact | Required heading |
+| --- | --- |
+| `research` | `## 🔬 Squad Research` |
+| `triage` | `## 🔍 Squad Triage — Dispositions` |
+| `program` | `## 📋 Squad Program Plan` |
+| `implementation` | `## 🔧 Squad Implementation Plan` |
+| `validation` | `## ✅/❌ Squad Plan Validation` |
+| `scope-accepted` | `## ✅ Scope Accepted` |
+| `impl-accepted` | `## ✅ Implementation Accepted` |
+| `activated` | `## ✅ Plan Activated` |
+
+For triage, require a populated Work Items table and require the Decisions Needed
+table to contain no data rows. For validation, require exactly one `RESULT: PASS`
+or `RESULT: FAIL`; only `RESULT: PASS` permits acceptance. Treat missing,
+duplicated, mismatched, or malformed structured data as blocked rather than
+inferring a state from prose.
+
 Before each dispatch, add exactly one comment:
 
 ```markdown

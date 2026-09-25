@@ -145,6 +145,7 @@ pre-agent-steps:
         }
         node --check "$path" >/dev/null
       }
+      # Keep this digest aligned with Squad's own pre-agent validator check.
       check_hash "$cast_validator" "62fbf47b51639fd1878c143e5176ee3099e390065997411511e9d483d467bbce"
       check_hash "$bootstrap_validator" "d449b9204f7fad133ff7133c1a30c9381c87e3c0c9d481352819ca93ea1a1dad"
       node "$bootstrap_validator" \
