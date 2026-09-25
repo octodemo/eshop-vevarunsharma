@@ -26,6 +26,7 @@ network:
     - defaults
 resources:
   - shared/squad-cast-validator.mjs
+  - shared/squad-cast-validator.sha256
   - shared/squad-bootstrap-validator.mjs
   - shared/builtins/scribe-charter.md
   - shared/builtins/ralph-charter.md
@@ -132,6 +133,7 @@ pre-agent-steps:
       set -euo pipefail
       cd "${GITHUB_WORKSPACE:?}"
       cast_validator=".github/workflows/shared/squad-cast-validator.mjs"
+      cast_validator_hash=".github/workflows/shared/squad-cast-validator.sha256"
       bootstrap_validator=".github/workflows/shared/squad-bootstrap-validator.mjs"
       check_hash() {
         local path="$1"
@@ -145,8 +147,16 @@ pre-agent-steps:
         }
         node --check "$path" >/dev/null
       }
-      # Keep this digest aligned with Squad's own pre-agent validator check.
-      check_hash "$cast_validator" "62fbf47b51639fd1878c143e5176ee3099e390065997411511e9d483d467bbce"
+      test -r "$cast_validator_hash" || {
+        printf 'Validator digest is missing or unreadable: %s\n' "$cast_validator_hash" >&2
+        exit 1
+      }
+      expected_cast_validator_hash="$(tr -d '\r\n' < "$cast_validator_hash")"
+      [[ "$expected_cast_validator_hash" =~ ^[0-9a-f]{64}$ ]] || {
+        printf 'Validator digest is invalid: %s\n' "$cast_validator_hash" >&2
+        exit 1
+      }
+      check_hash "$cast_validator" "$expected_cast_validator_hash"
       check_hash "$bootstrap_validator" "d449b9204f7fad133ff7133c1a30c9381c87e3c0c9d481352819ca93ea1a1dad"
       node "$bootstrap_validator" \
         --root "$PWD" \
