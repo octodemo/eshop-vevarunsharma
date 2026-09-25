@@ -65,6 +65,9 @@ gate.
 | --- | --- | --- |
 | Squad retrospective state | `Squad retrospective state` | `squad-retro-state` |
 
+Add every new factory-owned state or maintenance issue to this table before it
+is introduced; the table is the controller's exclusion source of truth.
+
 ## Signal intake
 
 For a completed `workflow_run`, act only when its conclusion is `failure`,

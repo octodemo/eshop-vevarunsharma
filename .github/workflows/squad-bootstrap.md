@@ -137,25 +137,25 @@ pre-agent-steps:
       cast_validator_hash=".github/workflows/shared/squad-cast-validator.sha256"
       bootstrap_validator=".github/workflows/shared/squad-bootstrap-validator.mjs"
       check_hash() {
-      local path="$1"
-      local expected="$2"
-      test -r "$path" || { printf 'Validator resource missing or unreadable: %s\n' "$path" >&2; exit 1; }
-      local actual
-      actual="$(node -e 'const c=require("node:crypto"),f=require("node:fs");process.stdout.write(c.createHash("sha256").update(f.readFileSync(process.argv[1])).digest("hex"))' "$path")"
-      test "$actual" = "$expected" || {
-        printf 'Validator SHA-256 mismatch for %s: expected %s, got %s\n' "$path" "$expected" "$actual" >&2
-        exit 1
-      }
-      node --check "$path" >/dev/null
+        local path="$1"
+        local expected="$2"
+        test -r "$path" || { printf 'Validator resource missing or unreadable: %s\n' "$path" >&2; exit 1; }
+        local actual
+        actual="$(node -e 'const c=require("node:crypto"),f=require("node:fs");process.stdout.write(c.createHash("sha256").update(f.readFileSync(process.argv[1])).digest("hex"))' "$path")"
+        test "$actual" = "$expected" || {
+          printf 'Validator SHA-256 mismatch for %s: expected %s, got %s\n' "$path" "$expected" "$actual" >&2
+          exit 1
+        }
+        node --check "$path" >/dev/null
       }
       test -r "$cast_validator_hash" || {
-      printf 'Validator digest is missing or unreadable: %s\n' "$cast_validator_hash" >&2
-      exit 1
+        printf 'Validator digest is missing or unreadable: %s\n' "$cast_validator_hash" >&2
+        exit 1
       }
       expected_cast_validator_hash="$(tr -d '\r\n' < "$cast_validator_hash")"
       [[ "$expected_cast_validator_hash" =~ ^[0-9a-f]{64}$ ]] || {
-      printf 'Validator digest is invalid: %s\n' "$cast_validator_hash" >&2
-      exit 1
+        printf 'Validator digest is invalid: %s\n' "$cast_validator_hash" >&2
+        exit 1
       }
       check_hash "$cast_validator" "$expected_cast_validator_hash"
       check_hash "$bootstrap_validator" "d449b9204f7fad133ff7133c1a30c9381c87e3c0c9d481352819ca93ea1a1dad"
