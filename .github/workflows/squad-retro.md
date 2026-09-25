@@ -12,6 +12,10 @@ on:
     - cron: "every 6h"
   workflow_dispatch:
     inputs:
+      issue_number:
+        description: "Optional issue target for a lifecycle-state update"
+        required: false
+        type: string
       retro_reason:
         description: "Entry path: manual, early-evidence, or drain"
         required: false

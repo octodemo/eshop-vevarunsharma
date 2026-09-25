@@ -1,5 +1,5 @@
-# gh-aw-metadata: {"schema_version":"v4","frontmatter_hash":"c23e478685bd01dd20ccff4dfbef7ffff3e2bf5b6c8eaf5f5e7fc6d87e1ae012","body_hash":"5b818c64bcc6cc911a5fb43e1f24272529e3ea129de224bf7784046af563658a","compiler_version":"v0.89.21","strict":true,"agent_id":"copilot","engine_versions":{"copilot":"1.0.87"}}
-# gh-aw-manifest: {"version":1,"secrets":["GH_AW_DEFAULT_OTLP_ENDPOINT","GH_AW_DEFAULT_OTLP_HEADERS","GH_AW_GITHUB_MCP_SERVER_TOKEN","GH_AW_GITHUB_TOKEN","GITHUB_TOKEN"],"actions":[{"repo":"actions/checkout","sha":"3d3c42e5aac5ba805825da76410c181273ba90b1","version":"v7.0.1"},{"repo":"actions/download-artifact","sha":"3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c","version":"v8.0.1"},{"repo":"actions/github-script","sha":"3a2844b7e9c422d3c10d287c895573f7108da1b3","version":"v9.0.0"},{"repo":"actions/setup-node","sha":"820762786026740c76f36085b0efc47a31fe5020","version":"v7.0.0"},{"repo":"actions/upload-artifact","sha":"043fb46d1a93c77aae656e7c1c64a875d1fc6a0a","version":"v7.0.1"},{"repo":"github/gh-aw-actions/setup","sha":"v0.89.21","version":"v0.89.21"}],"containers":[{"image":"ghcr.io/github/gh-aw-firewall/agent:0.28.23","digest":"sha256:2c78aaba1c108e130e2d6d01e4f2cca334ea04c53e6f258913ac34173fe7e3b2","pinned_image":"ghcr.io/github/gh-aw-firewall/agent:0.28.23@sha256:2c78aaba1c108e130e2d6d01e4f2cca334ea04c53e6f258913ac34173fe7e3b2"},{"image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.28.23","digest":"sha256:c15c3d1208df10c5b588a3657be53742aa982ae0909d1eb1812525268794ca64","pinned_image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.28.23@sha256:c15c3d1208df10c5b588a3657be53742aa982ae0909d1eb1812525268794ca64"},{"image":"ghcr.io/github/gh-aw-firewall/cli-proxy:0.28.23","digest":"sha256:9e31a6e518eba44652b9ae94ce55c3b6958e06290c3b81b08de4174751bb439a","pinned_image":"ghcr.io/github/gh-aw-firewall/cli-proxy:0.28.23@sha256:9e31a6e518eba44652b9ae94ce55c3b6958e06290c3b81b08de4174751bb439a"},{"image":"ghcr.io/github/gh-aw-firewall/squid:0.28.23","digest":"sha256:02ffc56dd40158223064ef03a78c2d9717473c93723b4e403d455ea6f0b09ae0","pinned_image":"ghcr.io/github/gh-aw-firewall/squid:0.28.23@sha256:02ffc56dd40158223064ef03a78c2d9717473c93723b4e403d455ea6f0b09ae0"},{"image":"ghcr.io/github/gh-aw-mcpg:v0.4.25","digest":"sha256:9be0a86220e807a0ecc89e53d7453468f7a53fbc6b3d1efd2299025ffe01d086","pinned_image":"ghcr.io/github/gh-aw-mcpg:v0.4.25@sha256:9be0a86220e807a0ecc89e53d7453468f7a53fbc6b3d1efd2299025ffe01d086"},{"image":"ghcr.io/github/gh-aw-node","digest":"sha256:11c2c544876cdbaffefe0f7f1283b74838c209654b4934a78e23ed11f750490f","pinned_image":"ghcr.io/github/gh-aw-node@sha256:11c2c544876cdbaffefe0f7f1283b74838c209654b4934a78e23ed11f750490f"},{"image":"ghcr.io/github/github-mcp-server:v1.12.2","digest":"sha256:508a0857ec762b1ab1cece29193345b501fab1dd9d1228a7b617062954cecac6","pinned_image":"ghcr.io/github/github-mcp-server:v1.12.2@sha256:508a0857ec762b1ab1cece29193345b501fab1dd9d1228a7b617062954cecac6"}],"mcp_servers":[{"name":"safeoutputs","tools":["materialize_bootstrap","missing_data","missing_tool","noop"]}]}
+# gh-aw-metadata: {"schema_version":"v4","frontmatter_hash":"54f245e479fc124ce97f706e0025d9b0c06d00b1ddd4c0af4288d5cc7482a05f","body_hash":"b72388f164ec8d84f02760332ef825cbd9482dc779e6ebe920d8bc40c2c4a4d2","compiler_version":"v0.89.21","strict":true,"agent_id":"copilot","engine_versions":{"copilot":"1.0.87"}}
+# gh-aw-manifest: {"version":1,"secrets":["GH_AW_DEFAULT_OTLP_ENDPOINT","GH_AW_DEFAULT_OTLP_HEADERS","GH_AW_GITHUB_MCP_SERVER_TOKEN","GH_AW_GITHUB_TOKEN","GITHUB_TOKEN"],"actions":[{"repo":"actions/checkout","sha":"3d3c42e5aac5ba805825da76410c181273ba90b1","version":"v7.0.1"},{"repo":"actions/download-artifact","sha":"3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c","version":"v8.0.1"},{"repo":"actions/github-script","sha":"3a2844b7e9c422d3c10d287c895573f7108da1b3","version":"v9.0.0"},{"repo":"actions/setup-node","sha":"820762786026740c76f36085b0efc47a31fe5020","version":"v7.0.0"},{"repo":"actions/upload-artifact","sha":"043fb46d1a93c77aae656e7c1c64a875d1fc6a0a","version":"v7.0.1"},{"repo":"github/gh-aw-actions/setup","sha":"v0.89.21","version":"v0.89.21"}],"containers":[{"image":"ghcr.io/github/gh-aw-firewall/agent:0.28.23","digest":"sha256:2c78aaba1c108e130e2d6d01e4f2cca334ea04c53e6f258913ac34173fe7e3b2","pinned_image":"ghcr.io/github/gh-aw-firewall/agent:0.28.23@sha256:2c78aaba1c108e130e2d6d01e4f2cca334ea04c53e6f258913ac34173fe7e3b2"},{"image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.28.23","digest":"sha256:c15c3d1208df10c5b588a3657be53742aa982ae0909d1eb1812525268794ca64","pinned_image":"ghcr.io/github/gh-aw-firewall/api-proxy:0.28.23@sha256:c15c3d1208df10c5b588a3657be53742aa982ae0909d1eb1812525268794ca64"},{"image":"ghcr.io/github/gh-aw-firewall/cli-proxy:0.28.23","digest":"sha256:9e31a6e518eba44652b9ae94ce55c3b6958e06290c3b81b08de4174751bb439a","pinned_image":"ghcr.io/github/gh-aw-firewall/cli-proxy:0.28.23@sha256:9e31a6e518eba44652b9ae94ce55c3b6958e06290c3b81b08de4174751bb439a"},{"image":"ghcr.io/github/gh-aw-firewall/squid:0.28.23","digest":"sha256:02ffc56dd40158223064ef03a78c2d9717473c93723b4e403d455ea6f0b09ae0","pinned_image":"ghcr.io/github/gh-aw-firewall/squid:0.28.23@sha256:02ffc56dd40158223064ef03a78c2d9717473c93723b4e403d455ea6f0b09ae0"},{"image":"ghcr.io/github/gh-aw-mcpg:v0.4.25","digest":"sha256:9be0a86220e807a0ecc89e53d7453468f7a53fbc6b3d1efd2299025ffe01d086","pinned_image":"ghcr.io/github/gh-aw-mcpg:v0.4.25@sha256:9be0a86220e807a0ecc89e53d7453468f7a53fbc6b3d1efd2299025ffe01d086"},{"image":"ghcr.io/github/gh-aw-node","digest":"sha256:11c2c544876cdbaffefe0f7f1283b74838c209654b4934a78e23ed11f750490f","pinned_image":"ghcr.io/github/gh-aw-node@sha256:11c2c544876cdbaffefe0f7f1283b74838c209654b4934a78e23ed11f750490f"},{"image":"ghcr.io/github/github-mcp-server:v1.12.2","digest":"sha256:508a0857ec762b1ab1cece29193345b501fab1dd9d1228a7b617062954cecac6","pinned_image":"ghcr.io/github/github-mcp-server:v1.12.2@sha256:508a0857ec762b1ab1cece29193345b501fab1dd9d1228a7b617062954cecac6"}],"mcp_servers":[{"name":"safeoutputs","tools":["add_comment","create_issue","dispatch_workflow","missing_data","missing_tool","noop","squad"]}]}
 # This file was automatically generated by gh-aw (v0.89.21). DO NOT EDIT. To debug this workflow, load the skill at https://github.com/github/gh-aw/blob/main/debug.md
 #
 #    ___                   _   _
@@ -17,15 +17,15 @@
 #  \/  \/ \___/|_| |_|\_\|_| |_|\___/ \_/\_/ |___/
 #
 #
-# To update this file, edit bradygaster/squad/workflows/squad-bootstrap.md@a1a8e1f4ec10b2dc08411009f29acf725d9ab515 and run:
+# To update this file, edit the corresponding .md file and run:
 #   gh aw compile
 # Not all edits will cause changes to this file.
 #
 # For more information: https://github.github.com/gh-aw/introduction/overview/
 #
-# Create one validated repository-derived Squad Cast PR and one linked research-proposals issue
+# Turn repository signals into bounded Squad research, planning, activation, and implementation work
 #
-# Source: bradygaster/squad/workflows/squad-bootstrap.md@a1a8e1f4ec10b2dc08411009f29acf725d9ab515
+# Intent: Convert actionable repository signals into verified, independently reviewable Squad work without duplicating work or bypassing decision gates.
 #
 # Secrets used:
 #   - GH_AW_DEFAULT_OTLP_ENDPOINT
@@ -52,16 +52,16 @@
 #   - ghcr.io/github/gh-aw-node@sha256:11c2c544876cdbaffefe0f7f1283b74838c209654b4934a78e23ed11f750490f
 #   - ghcr.io/github/github-mcp-server:v1.12.2@sha256:508a0857ec762b1ab1cece29193345b501fab1dd9d1228a7b617062954cecac6
 
-name: "Squad Bootstrap"
+name: "Squad Factory"
 on:
-  push:
-    branches:
-      - "**"
-    paths:
-      - .github/workflows/squad-bootstrap.md
-      - .github/workflows/squad-bootstrap.lock.yml
+  issue_comment:
+    types:
+      - created
+  issues:
+    types:
+      - opened
   schedule:
-    - cron: "27 */3 * * *"  # Friendly format: every 3 hours (scattered)
+    - cron: "41 */1 * * *"  # Friendly format: hourly (scattered)
   workflow_dispatch:
     inputs:
       aw_context:
@@ -69,19 +69,28 @@ on:
         description: "Agent caller context (used internally by Agentic Workflows)."
         required: false
         type: string
+  workflow_run:
+    # zizmor: ignore[dangerous-triggers] - workflow_run trigger is secured with role and fork validation
+    branches:
+      - main
+    types:
+      - completed
+    workflows:
+      - eShop Pull Request Validation
+      - "eShop Pull Request Validation - .NET MAUI"
 
 permissions: {}
 
 concurrency:
   cancel-in-progress: false
-  group: squad-bootstrap-${{ github.repository }}
+  group: squad-factory-${{ github.event.issue.number || github.event.workflow_run.id || github.run_id }}
 
-run-name: Squad bootstrap — ${{ github.repository }}
+run-name: Squad factory — ${{ github.event.issue.number || github.event.workflow_run.name || 'queue drain' }}
 
 env:
   OTEL_EXPORTER_OTLP_ENDPOINT: ${{ secrets.GH_AW_DEFAULT_OTLP_ENDPOINT || vars.GH_AW_DEFAULT_OTLP_ENDPOINT }}
-  OTEL_SERVICE_NAME: gh-aw.squad-bootstrap
-  OTEL_RESOURCE_ATTRIBUTES: 'gh-aw.workflow.name=Squad%20Bootstrap,gh-aw.repository=${{ github.repository }},gh-aw.run.id=${{ github.run_id }},github.run_id=${{ github.run_id }},gh-aw.engine.id=copilot'
+  OTEL_SERVICE_NAME: gh-aw.squad-factory
+  OTEL_RESOURCE_ATTRIBUTES: 'gh-aw.workflow.name=Squad%20Factory,gh-aw.repository=${{ github.repository }},gh-aw.run.id=${{ github.run_id }},github.run_id=${{ github.run_id }},gh-aw.engine.id=copilot'
   OTEL_EXPORTER_OTLP_HEADERS: ${{ secrets.GH_AW_DEFAULT_OTLP_HEADERS }}
   GH_AW_OTLP_ENDPOINTS: '[{"url":"${{ secrets.GH_AW_DEFAULT_OTLP_ENDPOINT || vars.GH_AW_DEFAULT_OTLP_ENDPOINT }}","headers":"${{ secrets.GH_AW_DEFAULT_OTLP_HEADERS }}"}]'
   GH_AW_OTLP_IF_MISSING: ignore
@@ -89,7 +98,10 @@ env:
 jobs:
   activation:
     needs: pre_activation
-    if: needs.pre_activation.outputs.activated == 'true' && (github.ref_name == github.event.repository.default_branch)
+    # zizmor: ignore[dangerous-triggers] - workflow_run trigger is secured with role and fork validation
+    if: >
+      (needs.pre_activation.outputs.activated == 'true') && (github.event_name != 'workflow_run' || github.event.workflow_run.repository.id == github.repository_id &&
+      (!(github.event.workflow_run.repository.fork)))
     runs-on: ubuntu-slim
     permissions:
       actions: read
@@ -99,6 +111,7 @@ jobs:
       GH_AW_MAX_DAILY_AI_CREDITS: ${{ vars.GH_AW_DEFAULT_MAX_DAILY_AI_CREDITS || '5000' }}
       GH_AW_RUNTIME_FEATURES: ${{ vars.GH_AW_RUNTIME_FEATURES }}
     outputs:
+      body: ${{ steps.sanitized.outputs.body }}
       comment_id: ""
       comment_repo: ""
       daily_ai_credits_exceeded: ${{ steps.daily-ai-credits-workflow-guardrail.outputs.daily_ai_credits_exceeded == 'true' }}
@@ -114,6 +127,8 @@ jobs:
       setup-span-id: ${{ steps.setup.outputs.span-id }}
       setup-trace-id: ${{ steps.setup.outputs.trace-id }}
       stale_lock_file_failed: ${{ steps.check-lock-file.outputs.stale_lock_file_failed == 'true' }}
+      text: ${{ steps.sanitized.outputs.text }}
+      title: ${{ steps.sanitized.outputs.title }}
     steps:
       - name: Setup Scripts
         id: setup
@@ -125,11 +140,10 @@ jobs:
           parent-span-id: ${{ needs.pre_activation.outputs.setup-parent-span-id || needs.pre_activation.outputs.setup-span-id }}
           safe-output-artifact-client: ${{ env.GH_AW_MAX_DAILY_AI_CREDITS != '' }}
         env:
-          GH_AW_SETUP_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-bootstrap.lock.yml@${{ github.ref }}
+          GH_AW_SETUP_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-factory.lock.yml@${{ github.ref }}
           GH_AW_INFO_VERSION: "1.0.87"
           GH_AW_INFO_AWF_VERSION: "v0.28.23"
-          GH_AW_INFO_BODY_MODIFIED: "false"
           GH_AW_INFO_ENGINE_ID: "copilot"
       - name: Mask OTLP telemetry headers
         run: bash "${RUNNER_TEMP}/gh-aw/actions/mask_otlp_headers.sh"
@@ -142,7 +156,7 @@ jobs:
           GH_AW_INFO_VERSION: "1.0.87"
           GH_AW_INFO_AGENT_VERSION: "1.0.87"
           GH_AW_INFO_CLI_VERSION: "v0.89.21"
-          GH_AW_INFO_WORKFLOW_NAME: "Squad Bootstrap"
+          GH_AW_INFO_WORKFLOW_NAME: "Squad Factory"
           GH_AW_INFO_EXPERIMENTAL: "false"
           GH_AW_INFO_SUPPORTS_TOOLS_ALLOWLIST: "true"
           GH_AW_INFO_STAGED: "false"
@@ -152,8 +166,7 @@ jobs:
           GH_AW_INFO_AWMG_VERSION: ""
           GH_AW_INFO_FIREWALL_TYPE: "squid"
           GH_AW_INFO_AGENT_RUNTIME: ""
-          GH_AW_INFO_FRONTMATTER_SOURCE: "bradygaster/squad/workflows/squad-bootstrap.md@a1a8e1f4ec10b2dc08411009f29acf725d9ab515"
-          GH_AW_INFO_BODY_MODIFIED: "false"
+          GH_AW_INFO_FRONTMATTER_EMOJI: "🏭"
           GH_AW_COMPILED_STRICT: "true"
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
@@ -185,8 +198,8 @@ jobs:
         if: ${{ env.GH_AW_MAX_DAILY_AI_CREDITS != '' }}
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
-          GH_AW_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_WORKFLOW_ID: "squad-bootstrap"
+          GH_AW_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_WORKFLOW_ID: "squad-factory"
           GH_AW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           GH_AW_WORKFLOW_DISPATCH_AW_CONTEXT: ${{ github.event.inputs.aw_context || '' }}
           GH_AW_HAS_SLASH_COMMAND: "false"
@@ -242,7 +255,7 @@ jobs:
         id: check-lock-file
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
-          GH_AW_WORKFLOW_FILE: "squad-bootstrap.lock.yml"
+          GH_AW_WORKFLOW_FILE: "squad-factory.lock.yml"
           GH_AW_CONTEXT_WORKFLOW_REF: "${{ github.workflow_ref }}"
         with:
           script: |
@@ -257,7 +270,7 @@ jobs:
         env:
           GH_AW_COMPILED_VERSION: "v0.89.21"
           GH_AW_BLOCKED_VERSION_REPORT_AS_ISSUE: "true"
-          GH_AW_WORKFLOW_NAME: "Squad Bootstrap"
+          GH_AW_WORKFLOW_NAME: "Squad Factory"
         with:
           script: |
             const path = require('path');
@@ -265,6 +278,19 @@ jobs:
             const { setupGlobals } = require(path.join(actionsDir, 'setup_globals.cjs'));
             setupGlobals(core, github, context, exec, io, getOctokit);
             const { main } = require(path.join(actionsDir, 'check_version_updates.cjs'));
+            await main();
+      - name: Compute current body text
+        id: sanitized
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        env:
+          GH_AW_ALLOWED_DOMAINS: "api.snapcraft.io,archive.ubuntu.com,azure.archive.ubuntu.com,crl.geotrust.com,crl.globalsign.com,crl.identrust.com,crl.sectigo.com,crl.thawte.com,crl.usertrust.com,crl.verisign.com,crl3.digicert.com,crl4.digicert.com,crls.ssl.com,json-schema.org,json.schemastore.org,keyserver.ubuntu.com,ocsp.digicert.com,ocsp.geotrust.com,ocsp.globalsign.com,ocsp.identrust.com,ocsp.sectigo.com,ocsp.ssl.com,ocsp.thawte.com,ocsp.usertrust.com,ocsp.verisign.com,packagecloud.io,packages.cloud.google.com,packages.microsoft.com,ppa.launchpad.net,s.symcb.com,s.symcd.com,security.ubuntu.com,ts-crl.ws.symantec.com,ts-ocsp.ws.symantec.com,www.googleapis.com"
+        with:
+          script: |
+            const path = require('path');
+            const actionsDir = path.join(process.env.RUNNER_TEMP, 'gh-aw', 'actions');
+            const { setupGlobals } = require(path.join(actionsDir, 'setup_globals.cjs'));
+            setupGlobals(core, github, context, exec, io, getOctokit);
+            const { main } = require(path.join(actionsDir, 'compute_text.cjs'));
             await main();
       - name: Log runtime features
         if: ${{ contains(toJSON(vars), '"GH_AW_RUNTIME_FEATURES":') }}
@@ -275,22 +301,22 @@ jobs:
           GH_AW_ACTIONS_DIR: ${{ runner.temp }}/gh-aw/actions
           GH_AW_PROMPT: ${{ runner.temp }}/gh-aw/aw-prompts/prompt.txt
           GH_AW_SAFE_OUTPUTS: ${{ runner.temp }}/gh-aw/safeoutputs/outputs.jsonl
-          GH_AW_PROMPT_CONFIG: "{\"items\":[{\"content_env\":\"GH_AW_PROMPT_CONTENT_0000\"},{\"file\":\"xpia.md\"},{\"file\":\"temp_folder_prompt.md\"},{\"file\":\"markdown.md\"},{\"file\":\"safe_outputs_prompt.md\"},{\"content_env\":\"GH_AW_PROMPT_CONTENT_0001\"},{\"content_env\":\"GH_AW_PROMPT_CONTENT_0002\"},{\"file\":\"mcp_cli_tools_with_safeoutputs_prompt.md\"},{\"content_env\":\"GH_AW_PROMPT_CONTENT_0003\"},{\"file\":\"cli_proxy_with_safeoutputs_prompt.md\"},{\"content_env\":\"GH_AW_PROMPT_CONTENT_0004\"},{\"content_env\":\"GH_AW_PROMPT_CONTENT_0005\"}]}"
+          GH_AW_PROMPT_CONFIG: "{\"items\":[{\"content_env\":\"GH_AW_PROMPT_CONTENT_0000\"},{\"file\":\"xpia.md\"},{\"file\":\"temp_folder_prompt.md\"},{\"file\":\"markdown.md\"},{\"file\":\"safe_outputs_prompt.md\"},{\"content_env\":\"GH_AW_PROMPT_CONTENT_0001\"},{\"content_env\":\"GH_AW_PROMPT_CONTENT_0002\"},{\"file\":\"mcp_cli_tools_with_safeoutputs_prompt.md\"},{\"content_env\":\"GH_AW_PROMPT_CONTENT_0003\"},{\"file\":\"cli_proxy_with_safeoutputs_prompt.md\"},{\"file\":\"pr_context_prompt.md\",\"condition_env\":\"GH_AW_INCLUDE_PR_CONTEXT\"},{\"content_env\":\"GH_AW_PROMPT_CONTENT_0004\"},{\"content_env\":\"GH_AW_PROMPT_CONTENT_0005\"}]}"
           GH_AW_EXPR_1A3A194A: ${{ github.event.discussion.number || (fromJSON(github.event.inputs.aw_context || github.event.client_payload.aw_context || '{}').item_type == 'discussion' && fromJSON(github.event.inputs.aw_context || github.event.client_payload.aw_context || '{}').item_number) }}
           GH_AW_EXPR_463A214A: ${{ github.event.pull_request.number || (fromJSON(github.event.inputs.aw_context || github.event.client_payload.aw_context || '{}').item_type == 'pull_request' && fromJSON(github.event.inputs.aw_context || github.event.client_payload.aw_context || '{}').item_number) }}
           GH_AW_EXPR_802A9F6A: ${{ github.event.issue.number || (fromJSON(github.event.inputs.aw_context || github.event.client_payload.aw_context || '{}').item_type == 'issue' && fromJSON(github.event.inputs.aw_context || github.event.client_payload.aw_context || '{}').item_number) }}
           GH_AW_EXPR_FF1D34CE: ${{ github.event.comment.id || fromJSON(github.event.inputs.aw_context || github.event.client_payload.aw_context || '{}').comment_id }}
           GH_AW_GITHUB_ACTOR: ${{ github.actor }}
-          GH_AW_GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
           GH_AW_GITHUB_REPOSITORY: ${{ github.repository }}
           GH_AW_GITHUB_RUN_ID: ${{ github.run_id }}
           GH_AW_GITHUB_WORKSPACE: ${{ github.workspace }}
+          GH_AW_INCLUDE_PR_CONTEXT: ${{ (github.event_name == 'issue_comment' && github.event.issue.pull_request != null) || github.event_name == 'pull_request_review_comment' || github.event_name == 'pull_request_review' }}
           GH_AW_PROMPT_CONTENT_0000: "<system>\n"
-          GH_AW_PROMPT_CONTENT_0001: "<safe-output-tools>\nTools: missing_tool, missing_data, noop, materialize_bootstrap\n"
+          GH_AW_PROMPT_CONTENT_0001: "<safe-output-tools>\nTools: add_comment, create_issue, squad, missing_tool, missing_data, noop\nShared budgets: dispatch-workflow [squad](max:1 total)\n"
           GH_AW_PROMPT_CONTENT_0002: "</safe-output-tools>\n"
           GH_AW_PROMPT_CONTENT_0003: "<github-context>\nThe following GitHub context information is available for this workflow:\n{{#if github.actor}}\n- **actor**: __GH_AW_GITHUB_ACTOR__\n{{/if}}\n{{#if github.repository}}\n- **repository**: __GH_AW_GITHUB_REPOSITORY__\n{{/if}}\n{{#if github.workspace}}\n- **workspace**: __GH_AW_GITHUB_WORKSPACE__\n{{/if}}\n{{#if github.event.issue.number || (github.aw.context.item_type == 'issue' && github.aw.context.item_number)}}\n- **issue-number**: #__GH_AW_EXPR_802A9F6A__\n{{/if}}\n{{#if github.event.discussion.number || (github.aw.context.item_type == 'discussion' && github.aw.context.item_number)}}\n- **discussion-number**: #__GH_AW_EXPR_1A3A194A__\n{{/if}}\n{{#if github.event.pull_request.number || (github.aw.context.item_type == 'pull_request' && github.aw.context.item_number)}}\n- **pull-request-number**: #__GH_AW_EXPR_463A214A__\n{{/if}}\n{{#if github.event.comment.id || github.aw.context.comment_id}}\n- **comment-id**: __GH_AW_EXPR_FF1D34CE__\n{{/if}}\n{{#if github.run_id}}\n- **workflow-run-id**: __GH_AW_GITHUB_RUN_ID__\n{{/if}}\n</github-context>\n\n"
           GH_AW_PROMPT_CONTENT_0004: "</system>\n"
-          GH_AW_PROMPT_CONTENT_0005: "{{#runtime-import .github/workflows/squad-bootstrap.md}}\n"
+          GH_AW_PROMPT_CONTENT_0005: "{{#runtime-import .github/workflows/squad-factory.md}}\n"
         with:
           script: |
             const { setupGlobals } = require(process.env.GH_AW_ACTIONS_DIR + '/setup_globals.cjs');
@@ -302,8 +328,6 @@ jobs:
         env:
           GH_AW_PROMPT: ${{ runner.temp }}/gh-aw/aw-prompts/prompt.txt
           GH_AW_ENGINE_ID: "copilot"
-          GH_AW_GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
-          GH_AW_GITHUB_REPOSITORY: ${{ github.repository }}
         with:
           script: |
             const path = require('path');
@@ -321,10 +345,10 @@ jobs:
           GH_AW_EXPR_802A9F6A: ${{ github.event.issue.number || (fromJSON(github.event.inputs.aw_context || github.event.client_payload.aw_context || '{}').item_type == 'issue' && fromJSON(github.event.inputs.aw_context || github.event.client_payload.aw_context || '{}').item_number) }}
           GH_AW_EXPR_FF1D34CE: ${{ github.event.comment.id || fromJSON(github.event.inputs.aw_context || github.event.client_payload.aw_context || '{}').comment_id }}
           GH_AW_GITHUB_ACTOR: ${{ github.actor }}
-          GH_AW_GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
           GH_AW_GITHUB_REPOSITORY: ${{ github.repository }}
           GH_AW_GITHUB_RUN_ID: ${{ github.run_id }}
           GH_AW_GITHUB_WORKSPACE: ${{ github.workspace }}
+          GH_AW_INCLUDE_PR_CONTEXT: ${{ (github.event_name == 'issue_comment' && github.event.issue.pull_request != null) || github.event_name == 'pull_request_review_comment' || github.event_name == 'pull_request_review' }}
           GH_AW_MCP_CLI_SERVERS_LIST: '- `safeoutputs` — run `safeoutputs --help` to see available tools'
           GH_AW_NEEDS_PRE_ACTIVATION_OUTPUTS_ACTIVATED: ${{ needs.pre_activation.outputs.activated }}
         with:
@@ -345,10 +369,10 @@ jobs:
                 GH_AW_EXPR_802A9F6A: process.env.GH_AW_EXPR_802A9F6A,
                 GH_AW_EXPR_FF1D34CE: process.env.GH_AW_EXPR_FF1D34CE,
                 GH_AW_GITHUB_ACTOR: process.env.GH_AW_GITHUB_ACTOR,
-                GH_AW_GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH: process.env.GH_AW_GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH,
                 GH_AW_GITHUB_REPOSITORY: process.env.GH_AW_GITHUB_REPOSITORY,
                 GH_AW_GITHUB_RUN_ID: process.env.GH_AW_GITHUB_RUN_ID,
                 GH_AW_GITHUB_WORKSPACE: process.env.GH_AW_GITHUB_WORKSPACE,
+                GH_AW_INCLUDE_PR_CONTEXT: process.env.GH_AW_INCLUDE_PR_CONTEXT,
                 GH_AW_MCP_CLI_SERVERS_LIST: process.env.GH_AW_MCP_CLI_SERVERS_LIST,
                 GH_AW_NEEDS_PRE_ACTIVATION_OUTPUTS_ACTIVATED: process.env.GH_AW_NEEDS_PRE_ACTIVATION_OUTPUTS_ACTIVATED
               }
@@ -398,6 +422,7 @@ jobs:
     if: needs.activation.outputs.daily_ai_credits_exceeded != 'true'
     runs-on: ubuntu-latest
     permissions:
+      actions: read
       contents: read
       copilot-requests: write
       issues: read
@@ -416,7 +441,7 @@ jobs:
       GH_AW_PR_HEAD_BASE_SHA: ""
       GH_AW_PR_HEAD_REPO: ""
       GH_AW_RUNTIME_FEATURES: ${{ vars.GH_AW_RUNTIME_FEATURES }}
-      GH_AW_WORKFLOW_ID_SANITIZED: squadbootstrap
+      GH_AW_WORKFLOW_ID_SANITIZED: squadfactory
     outputs:
       agentic_engine_timeout: ${{ steps.detect-agent-errors.outputs.agentic_engine_timeout || 'false' }}
       ai_credits_rate_limit_error: ${{ steps.parse-mcp-gateway.outputs.ai_credits_rate_limit_error || 'false' }}
@@ -450,11 +475,10 @@ jobs:
           trace-id: ${{ needs.activation.outputs.setup-trace-id }}
           parent-span-id: ${{ needs.activation.outputs.setup-parent-span-id || needs.activation.outputs.setup-span-id }}
         env:
-          GH_AW_SETUP_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-bootstrap.lock.yml@${{ github.ref }}
+          GH_AW_SETUP_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-factory.lock.yml@${{ github.ref }}
           GH_AW_INFO_VERSION: "1.0.87"
           GH_AW_INFO_AWF_VERSION: "v0.28.23"
-          GH_AW_INFO_BODY_MODIFIED: "false"
           GH_AW_INFO_ENGINE_ID: "copilot"
       - name: Set runtime paths
         id: set-runtime-paths
@@ -550,27 +574,6 @@ jobs:
         env:
           GH_AW_SKILL_DIR: ".github/skills"
         run: bash "${RUNNER_TEMP}/gh-aw/actions/restore_inline_skills.sh"
-      - env:
-          SQUAD_BOOTSTRAP_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
-        id: bootstrap-state
-        name: Inspect deterministic bootstrap state
-        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0 (source v9)
-        with:
-          script: "const { writeFileSync } = await import('node:fs');\nconst { join } = await import('node:path');\nconst { pathToFileURL } = await import('node:url');\nconst stateModule = await import(pathToFileURL(join(\n  process.env.GITHUB_WORKSPACE,\n  '.github/workflows/shared/squad-bootstrap-validator.mjs',\n)).href);\nconst pullRequests = await github.paginate(github.rest.pulls.list, {\n  ...context.repo,\n  state: 'all',\n  per_page: 100,\n});\nconst issues = (await github.paginate(github.rest.issues.listForRepo, {\n  ...context.repo,\n  state: 'all',\n  per_page: 100,\n})).filter((issue) => !issue.pull_request);\nlet state;\ntry {\n  const preliminary = stateModule.classifyBootstrapState({\n    pullRequests,\n    issues,\n    defaultBranch: process.env.SQUAD_BOOTSTRAP_DEFAULT_BRANCH,\n  });\n  const comments = preliminary.issue\n    ? await github.paginate(github.rest.issues.listComments, {\n        ...context.repo,\n        issue_number: preliminary.issue.number,\n        per_page: 100,\n      })\n    : [];\n  state = stateModule.classifyBootstrapState({\n    pullRequests,\n    issues,\n    comments,\n    defaultBranch: process.env.SQUAD_BOOTSTRAP_DEFAULT_BRANCH,\n  });\n} catch (error) {\n  core.setFailed(error instanceof Error ? error.message : String(error));\n  return;\n}\nwriteFileSync(\n  join(process.env.GITHUB_WORKSPACE, '.github/workflows/squad-bootstrap-state.json'),\n  `${JSON.stringify(state, null, 2)}\\n`,\n);\nconst castRef = state.pull_request?.merged\n  ? state.pull_request.merge_commit_sha\n  : state.pull_request?.head_sha;\ncore.setOutput('cast_ref', castRef || '');\ncore.info(\n  `Bootstrap recovery action: ${state.action}; research artifacts: ${state.research_artifact_count}`,\n);\n"
-      - if: steps.bootstrap-state.outputs.cast_ref != ''
-        name: Restore an existing Cast tree for partial recovery
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          clean: false
-          persist-credentials: false
-          ref: ${{ steps.bootstrap-state.outputs.cast_ref }}
-      - name: Materialize canonical built-in support agents
-        run: "set -euo pipefail\nbuiltins_src=\"${GITHUB_WORKSPACE:?}/.github/workflows/shared/builtins\"\nsquad_agents=\"${GITHUB_WORKSPACE:?}/.squad/agents\"\nfor pair in \"scribe:Scribe\" \"ralph:Ralph\" \"rai:Rai\" \"fact-checker:Fact Checker\"; do\n  id=\"${pair%%:*}\"\n  display=\"${pair#*:}\"\n  src=\"${builtins_src}/${id}-charter.md\"\n  test -f \"$src\" || { printf 'Missing canonical built-in charter: %s\\n' \"$src\" >&2; exit 1; }\n  dest_dir=\"${squad_agents}/${id}\"\n  mkdir -p \"$dest_dir\"\n  cp \"$src\" \"${dest_dir}/charter.md\"\n  if [ ! -f \"${dest_dir}/history.md\" ]; then\n    printf '# %s — History\\n\\n## Learnings\\n\\nInitial scaffold via automatic gh-aw bootstrap.\\n' \"$display\" > \"${dest_dir}/history.md\"\n  fi\ndone\n"
-        shell: bash
-      - name: Prepare authenticated bootstrap validator
-        run: "set -euo pipefail\nrunner=\"${GITHUB_WORKSPACE:?}/.github/workflows/run-squad-bootstrap-validator\"\ncat > \"$runner\" <<'SQUAD_BOOTSTRAP_VALIDATOR'\n#!/usr/bin/env bash\nset -euo pipefail\ncd \"${GITHUB_WORKSPACE:?}\"\ncast_validator=\".github/workflows/shared/squad-cast-validator.mjs\"\ncast_validator_hash=\".github/workflows/shared/squad-cast-validator.sha256\"\nbootstrap_validator=\".github/workflows/shared/squad-bootstrap-validator.mjs\"\ncheck_hash() {\n  local path=\"$1\"\n  local expected=\"$2\"\n  test -r \"$path\" || { printf 'Validator resource missing or unreadable: %s\\n' \"$path\" >&2; exit 1; }\n  local actual\n  actual=\"$(node -e 'const c=require(\"node:crypto\"),f=require(\"node:fs\");process.stdout.write(c.createHash(\"sha256\").update(f.readFileSync(process.argv[1])).digest(\"hex\"))' \"$path\")\"\n  test \"$actual\" = \"$expected\" || {\n    printf 'Validator SHA-256 mismatch for %s: expected %s, got %s\\n' \"$path\" \"$expected\" \"$actual\" >&2\n    exit 1\n  }\n  node --check \"$path\" >/dev/null\n}\ntest -r \"$cast_validator_hash\" || {\n  printf 'Validator digest is missing or unreadable: %s\\n' \"$cast_validator_hash\" >&2\n  exit 1\n}\nexpected_cast_validator_hash=\"$(tr -d '\\r\\n' < \"$cast_validator_hash\")\"\n[[ \"$expected_cast_validator_hash\" =~ ^[0-9a-f]{64}$ ]] || {\n  printf 'Validator digest is invalid: %s\\n' \"$cast_validator_hash\" >&2\n  exit 1\n}\ncheck_hash \"$cast_validator\" \"$expected_cast_validator_hash\"\ncheck_hash \"$bootstrap_validator\" \"d449b9204f7fad133ff7133c1a30c9381c87e3c0c9d481352819ca93ea1a1dad\"\nnode \"$bootstrap_validator\" \\\n  --root \"$PWD\" \\\n  --payload \"${GITHUB_WORKSPACE:?}/.github/workflows/squad-bootstrap-payload.json\" \\\n  --repository \"${GITHUB_REPOSITORY:?}\" \\\n  --default-branch \"${SQUAD_BOOTSTRAP_DEFAULT_BRANCH:?}\" \\\n  --link-mode placeholder\nnode \"$bootstrap_validator\" \\\n  --encode-payload \"${GITHUB_WORKSPACE:?}/.github/workflows/squad-bootstrap-payload.json\" \\\n  > \"${GITHUB_WORKSPACE:?}/.github/workflows/squad-bootstrap-envelope.json\"\nSQUAD_BOOTSTRAP_VALIDATOR\nchmod 500 \"$runner\"\n"
-        shell: bash
-
       - name: Download container images
         run: bash "${RUNNER_TEMP}/gh-aw/actions/download_docker_images.sh" ghcr.io/github/gh-aw-firewall/agent:0.28.23@sha256:2c78aaba1c108e130e2d6d01e4f2cca334ea04c53e6f258913ac34173fe7e3b2 ghcr.io/github/gh-aw-firewall/api-proxy:0.28.23@sha256:c15c3d1208df10c5b588a3657be53742aa982ae0909d1eb1812525268794ca64 ghcr.io/github/gh-aw-firewall/cli-proxy:0.28.23@sha256:9e31a6e518eba44652b9ae94ce55c3b6958e06290c3b81b08de4174751bb439a ghcr.io/github/gh-aw-firewall/squid:0.28.23@sha256:02ffc56dd40158223064ef03a78c2d9717473c93723b4e403d455ea6f0b09ae0 ghcr.io/github/gh-aw-mcpg:v0.4.25@sha256:9be0a86220e807a0ecc89e53d7453468f7a53fbc6b3d1efd2299025ffe01d086 ghcr.io/github/gh-aw-node@sha256:11c2c544876cdbaffefe0f7f1283b74838c209654b4934a78e23ed11f750490f ghcr.io/github/github-mcp-server:v1.12.2@sha256:508a0857ec762b1ab1cece29193345b501fab1dd9d1228a7b617062954cecac6
       - name: Prepare Safe Outputs Directories
@@ -583,7 +586,7 @@ jobs:
         env:
           GH_AW_FILE_ROOT: "${{ runner.temp }}/gh-aw"
           GH_AW_FILE_CONFIG: "{\"files\":[{\"path\":\"safeoutputs/config.json\",\"content_env\":\"GH_AW_SAFE_OUTPUTS_CONFIG\"}]}"
-          GH_AW_SAFE_OUTPUTS_CONFIG: "{\"create_report_incomplete_issue\":{},\"materialize-bootstrap\":{\"description\":\"Create or recover the one deterministic Cast PR and one linked research-proposals issue.\",\"inputs\":{\"payload_byte_length\":{\"default\":null,\"description\":\"Canonical decimal UTF-8 byte length, at most 96000.\",\"required\":true,\"type\":\"string\"},\"payload_chunk_00\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_01\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_02\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_03\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_04\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_05\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_06\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_07\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_08\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_09\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_10\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_11\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_12\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_13\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_14\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_15\":{\"default\":null,\"description\":\"\",\"required\":false,\"type\":\"string\"},\"payload_chunk_count\":{\"default\":null,\"description\":\"Canonical decimal count of populated chunks, from 1 through 16.\",\"required\":true,\"type\":\"string\"},\"payload_encoding\":{\"default\":null,\"description\":\"Fixed bootstrap payload encoding; must be base64.\",\"required\":true,\"type\":\"string\"},\"payload_sha256\":{\"default\":null,\"description\":\"Lowercase SHA-256 of the complete UTF-8 payload bytes.\",\"required\":true,\"type\":\"string\"}},\"max\":1,\"output\":\"Validated Squad bootstrap materialized.\"},\"missing_data\":{},\"missing_tool\":{},\"noop\":{\"max\":1,\"report-as-issue\":\"false\"},\"report_incomplete\":{}}"
+          GH_AW_SAFE_OUTPUTS_CONFIG: "{\"add_comment\":{\"max\":1,\"target\":\"*\"},\"create_issue\":{\"deduplicate_by_title\":true,\"labels\":[\"factory-signal\"],\"max\":1,\"title_prefix\":\"[factory] \"},\"create_report_incomplete_issue\":{},\"dispatch_workflow\":{\"allowed_refs\":[\"refs/heads/${{ github.event.repository.default_branch }}\"],\"aw_context_workflows\":[\"squad\"],\"max\":1,\"target-ref\":\"${{ github.event.repository.default_branch }}\",\"workflow_files\":{\"squad\":\".lock.yml\"},\"workflows\":[\"squad\"]},\"missing_data\":{},\"missing_tool\":{},\"noop\":{\"max\":1,\"report-as-issue\":\"false\"},\"report_incomplete\":{}}"
         with:
           script: |
             const path = require('path');
@@ -596,93 +599,146 @@ jobs:
         env:
           GH_AW_TOOLS_META_JSON: |
             {
-              "description_suffixes": {},
+              "description_suffixes": {
+                "add_comment": " CONSTRAINTS: Maximum 1 comment(s) can be added. Target: *. Supports reply_to_id for discussion threading.",
+                "create_issue": " CONSTRAINTS: Maximum 1 issue(s) can be created. Title will be prefixed with \"[factory] \". Labels [\"factory-signal\"] will be automatically added."
+              },
               "repo_params": {},
               "dynamic_tools": [
                 {
-                  "description": "Create or recover the one deterministic Cast PR and one linked research-proposals issue.",
+                  "_workflow_name": "squad",
+                  "description": "Dispatch the 'squad' workflow with workflow_dispatch trigger. This workflow must support workflow_dispatch and be in .github/workflows/ directory in the same repository. Use the 'ref' parameter to target a specific branch or tag (allowed patterns: refs/heads/${GH_AW_GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH}).",
                   "inputSchema": {
                     "additionalProperties": false,
                     "properties": {
-                      "payload_byte_length": {
-                        "description": "Canonical decimal UTF-8 byte length, at most 96000.",
+                      "aw_context": {
+                        "description": "Originating agentic workflow context",
                         "type": "string"
                       },
-                      "payload_chunk_00": {
+                      "command": {
+                        "description": "Squad command (e.g., cast, implement, connect org/repo, adopt org/repo, status)",
                         "type": "string"
                       },
-                      "payload_chunk_01": {
+                      "issue_number": {
+                        "description": "Issue number to implement when run manually",
                         "type": "string"
                       },
-                      "payload_chunk_02": {
-                        "type": "string"
-                      },
-                      "payload_chunk_03": {
-                        "type": "string"
-                      },
-                      "payload_chunk_04": {
-                        "type": "string"
-                      },
-                      "payload_chunk_05": {
-                        "type": "string"
-                      },
-                      "payload_chunk_06": {
-                        "type": "string"
-                      },
-                      "payload_chunk_07": {
-                        "type": "string"
-                      },
-                      "payload_chunk_08": {
-                        "type": "string"
-                      },
-                      "payload_chunk_09": {
-                        "type": "string"
-                      },
-                      "payload_chunk_10": {
-                        "type": "string"
-                      },
-                      "payload_chunk_11": {
-                        "type": "string"
-                      },
-                      "payload_chunk_12": {
-                        "type": "string"
-                      },
-                      "payload_chunk_13": {
-                        "type": "string"
-                      },
-                      "payload_chunk_14": {
-                        "type": "string"
-                      },
-                      "payload_chunk_15": {
-                        "type": "string"
-                      },
-                      "payload_chunk_count": {
-                        "description": "Canonical decimal count of populated chunks, from 1 through 16.",
-                        "type": "string"
-                      },
-                      "payload_encoding": {
-                        "description": "Fixed bootstrap payload encoding; must be base64.",
-                        "type": "string"
-                      },
-                      "payload_sha256": {
-                        "description": "Lowercase SHA-256 of the complete UTF-8 payload bytes.",
+                      "ref": {
+                        "description": "The git ref (branch, tag, or SHA) to dispatch the workflow on. Must match one of the configured allowed ref patterns: refs/heads/${GH_AW_GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH}. If omitted, the ref is resolved from the triggering context, including the pull request head for pull request comments.",
                         "type": "string"
                       }
                     },
-                    "required": [
-                      "payload_byte_length",
-                      "payload_chunk_count",
-                      "payload_encoding",
-                      "payload_sha256"
-                    ],
                     "type": "object"
                   },
-                  "name": "materialize_bootstrap"
+                  "name": "squad"
                 }
               ]
             }
           GH_AW_VALIDATION_JSON: |
             {
+              "add_comment": {
+                "defaultMax": 1,
+                "fields": {
+                  "body": {
+                    "required": true,
+                    "type": "string",
+                    "sanitize": true,
+                    "maxLength": 65000
+                  },
+                  "comment_id": {
+                    "optionalPositiveInteger": true
+                  },
+                  "item_number": {
+                    "issueOrPRNumber": true
+                  },
+                  "pr": {
+                    "issueOrPRNumber": true
+                  },
+                  "pr_number": {
+                    "issueOrPRNumber": true
+                  },
+                  "reply_to_id": {
+                    "type": "string",
+                    "maxLength": 256
+                  },
+                  "repo": {
+                    "type": "string",
+                    "maxLength": 256
+                  },
+                  "target": {
+                    "type": "string",
+                    "enum": [
+                      "status"
+                    ]
+                  },
+                  "temporary_id": {
+                    "type": "string",
+                    "pattern": "^#?aw_[A-Za-z0-9_]{3,12}$"
+                  }
+                }
+              },
+              "create_issue": {
+                "defaultMax": 1,
+                "fields": {
+                  "blocked_by": {},
+                  "body": {
+                    "required": true,
+                    "type": "string",
+                    "sanitize": true,
+                    "maxLength": 65000,
+                    "minLength": 20
+                  },
+                  "fields": {
+                    "type": "array"
+                  },
+                  "labels": {
+                    "type": "array",
+                    "itemType": "string",
+                    "itemSanitize": true,
+                    "itemMaxLength": 128
+                  },
+                  "parent": {
+                    "issueOrPRNumber": true
+                  },
+                  "repo": {
+                    "type": "string",
+                    "maxLength": 256
+                  },
+                  "temporary_id": {
+                    "type": "string"
+                  },
+                  "title": {
+                    "required": true,
+                    "type": "string",
+                    "sanitize": true,
+                    "maxLength": 128
+                  }
+                }
+              },
+              "dispatch_workflow": {
+                "defaultMax": 1,
+                "fields": {
+                  "inputs": {
+                    "type": "object"
+                  },
+                  "ref": {
+                    "type": "string",
+                    "maxLength": 256,
+                    "minLength": 1,
+                    "pattern": "^[^\\x00-\\x20\\x7f~^:?*\\[\\\\]+$",
+                    "patternError": "must be a valid git ref"
+                  },
+                  "workflow_name": {
+                    "required": true,
+                    "type": "string",
+                    "sanitize": true,
+                    "maxLength": 256,
+                    "minLength": 1,
+                    "pattern": ".*\\S.*",
+                    "patternError": "must not be empty"
+                  }
+                }
+              },
               "missing_data": {
                 "defaultMax": 20,
                 "fields": {
@@ -757,6 +813,7 @@ jobs:
                 }
               }
             }
+          GH_AW_GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         with:
           script: |
@@ -911,6 +968,26 @@ jobs:
       - name: Execute GitHub Copilot CLI
         id: agentic_execution
         # Copilot CLI tool arguments (sorted):
+        # --allow-tool github
+        # --allow-tool safeoutputs
+        # --allow-tool shell(cat)
+        # --allow-tool shell(date)
+        # --allow-tool shell(echo)
+        # --allow-tool shell(gh:*)
+        # --allow-tool shell(grep)
+        # --allow-tool shell(head)
+        # --allow-tool shell(jq)
+        # --allow-tool shell(ls)
+        # --allow-tool shell(printf)
+        # --allow-tool shell(pwd)
+        # --allow-tool shell(safeoutputs:*)
+        # --allow-tool shell(sed)
+        # --allow-tool shell(sort)
+        # --allow-tool shell(tail)
+        # --allow-tool shell(uniq)
+        # --allow-tool shell(wc)
+        # --allow-tool shell(yq)
+        # --allow-tool write
         timeout-minutes: ${{ fromJSON(vars.GH_AW_DEFAULT_TIMEOUT_MINUTES || '20') }}
         run: |
           set -o pipefail
@@ -971,7 +1048,7 @@ jobs:
           GH_AW_AWF_ATTEMPT_LOG_NAME=copilot \
           bash "${RUNNER_TEMP}/gh-aw/actions/run_awf_with_startup_retries.sh" -- \
             awf --config "${RUNNER_TEMP}/gh-aw/awf-config.json" --container-workdir "${GITHUB_WORKSPACE}" --mount "${RUNNER_TEMP}/gh-aw:${RUNNER_TEMP}/gh-aw:ro" --mount "${RUNNER_TEMP}/gh-aw:/host${RUNNER_TEMP}/gh-aw:ro" ${GH_AW_TOOL_CACHE_MOUNT:+--mount "$GH_AW_TOOL_CACHE_MOUNT"} ${GH_AW_DOCKER_HOST:+--docker-host "$GH_AW_DOCKER_HOST"} --env-all --exclude-env ACTIONS_ID_TOKEN_REQUEST_TOKEN --exclude-env ACTIONS_ID_TOKEN_REQUEST_URL --exclude-env COPILOT_GITHUB_TOKEN --exclude-env GH_TOKEN --exclude-env GITHUB_MCP_SERVER_TOKEN --exclude-env MCP_GATEWAY_AGENT_ID --mount /tmp/gh-aw:/tmp/gh-aw:rw --log-level info --skip-pull --difc-proxy-host awmg-cli-proxy:18443 --difc-proxy-ca-cert /tmp/gh-aw/difc-proxy-tls/ca.crt \
-            -- /bin/bash -c 'set +o histexpand; export PATH="${RUNNER_TEMP}/gh-aw/mcp-cli/bin:$PATH" && : "${RUNNER_TOOL_CACHE:?RUNNER_TOOL_CACHE must be set}"; GH_AW_TOOL_CACHE="$RUNNER_TOOL_CACHE"; GH_AW_TOOL_BINS="$(find "$GH_AW_TOOL_CACHE" -maxdepth 5 -type d -name bin 2>/dev/null | tr '\''\n'\'' '\'':'\'')"; GH_AW_TOOL_BINS="${GH_AW_TOOL_BINS%:}"; export PATH="$PATH${GH_AW_TOOL_BINS:+:}$GH_AW_TOOL_BINS"; [ -n "$GOROOT" ] && export PATH="$GOROOT/bin:$PATH" || true; [ -n "$ERLANG_HOME" ] && export PATH="$ERLANG_HOME/bin:$PATH" || true && GH_AW_NODE_EXEC="${GH_AW_NODE_BIN:-}"; if [ -z "$GH_AW_NODE_EXEC" ] || [ ! -x "$GH_AW_NODE_EXEC" ]; then GH_AW_NODE_EXEC="$(command -v node 2>/dev/null || true)"; fi; if [ -z "$GH_AW_NODE_EXEC" ]; then echo "node runtime missing on this runner — check runtimes.node in workflow YAML" >&2; exit 127; fi; GH_AW_NPM_GLOBAL_ROOT="$(npm root -g 2>/dev/null || true)"; if [ -n "$GH_AW_NPM_GLOBAL_ROOT" ]; then export NODE_PATH="${GH_AW_NPM_GLOBAL_ROOT}${NODE_PATH:+:${NODE_PATH}}"; fi; "$GH_AW_NODE_EXEC" "${RUNNER_TEMP}/gh-aw/actions/copilot_harness.cjs" "${RUNNER_TEMP}/gh-aw/bin/copilot" --add-dir /tmp/gh-aw/ --log-level all --log-dir /tmp/gh-aw/sandbox/agent/logs/ --disable-builtin-mcps --no-ask-user --allow-all-tools --allow-all-paths --add-dir "${GITHUB_WORKSPACE}" --prompt-file /tmp/gh-aw/aw-prompts/prompt.txt'
+            -- /bin/bash -c 'set +o histexpand; export PATH="${RUNNER_TEMP}/gh-aw/mcp-cli/bin:$PATH" && : "${RUNNER_TOOL_CACHE:?RUNNER_TOOL_CACHE must be set}"; GH_AW_TOOL_CACHE="$RUNNER_TOOL_CACHE"; GH_AW_TOOL_BINS="$(find "$GH_AW_TOOL_CACHE" -maxdepth 5 -type d -name bin 2>/dev/null | tr '\''\n'\'' '\'':'\'')"; GH_AW_TOOL_BINS="${GH_AW_TOOL_BINS%:}"; export PATH="$PATH${GH_AW_TOOL_BINS:+:}$GH_AW_TOOL_BINS"; [ -n "$GOROOT" ] && export PATH="$GOROOT/bin:$PATH" || true; [ -n "$ERLANG_HOME" ] && export PATH="$ERLANG_HOME/bin:$PATH" || true && GH_AW_NODE_EXEC="${GH_AW_NODE_BIN:-}"; if [ -z "$GH_AW_NODE_EXEC" ] || [ ! -x "$GH_AW_NODE_EXEC" ]; then GH_AW_NODE_EXEC="$(command -v node 2>/dev/null || true)"; fi; if [ -z "$GH_AW_NODE_EXEC" ]; then echo "node runtime missing on this runner — check runtimes.node in workflow YAML" >&2; exit 127; fi; GH_AW_NPM_GLOBAL_ROOT="$(npm root -g 2>/dev/null || true)"; if [ -n "$GH_AW_NPM_GLOBAL_ROOT" ]; then export NODE_PATH="${GH_AW_NPM_GLOBAL_ROOT}${NODE_PATH:+:${NODE_PATH}}"; fi; "$GH_AW_NODE_EXEC" "${RUNNER_TEMP}/gh-aw/actions/copilot_harness.cjs" "${RUNNER_TEMP}/gh-aw/bin/copilot" --add-dir /tmp/gh-aw/ --log-level all --log-dir /tmp/gh-aw/sandbox/agent/logs/ --disable-builtin-mcps --no-ask-user --allow-tool github --allow-tool safeoutputs --allow-tool '\''shell(cat)'\'' --allow-tool '\''shell(date)'\'' --allow-tool '\''shell(echo)'\'' --allow-tool '\''shell(gh:*)'\'' --allow-tool '\''shell(grep)'\'' --allow-tool '\''shell(head)'\'' --allow-tool '\''shell(jq)'\'' --allow-tool '\''shell(ls)'\'' --allow-tool '\''shell(printf)'\'' --allow-tool '\''shell(pwd)'\'' --allow-tool '\''shell(safeoutputs:*)'\'' --allow-tool '\''shell(sed)'\'' --allow-tool '\''shell(sort)'\'' --allow-tool '\''shell(tail)'\'' --allow-tool '\''shell(uniq)'\'' --allow-tool '\''shell(wc)'\'' --allow-tool '\''shell(yq)'\'' --allow-tool write --allow-all-paths --add-dir "${GITHUB_WORKSPACE}" --prompt-file /tmp/gh-aw/aw-prompts/prompt.txt'
         env:
           AWF_REFLECT_ENABLED: 1
           COPILOT_AGENT_RUNNER_TYPE: STANDALONE
@@ -1211,7 +1288,6 @@ jobs:
       - activation
       - agent
       - detection
-      - materialize_bootstrap
       - safe_outputs
     if: >
       always() && (needs.agent.result != 'skipped' || needs.activation.outputs.lockdown_check_failed == 'true' ||
@@ -1220,9 +1296,11 @@ jobs:
       needs.activation.outputs.daily_ai_credits_guardrail_status == 'transient_error')
     runs-on: ubuntu-slim
     permissions:
+      actions: write
       issues: write
+      pull-requests: write
     concurrency:
-      group: "gh-aw-conclusion-squad-bootstrap-${{ github.run_id }}"
+      group: "gh-aw-conclusion-squad-factory-${{ github.run_id }}"
       cancel-in-progress: false
       queue: max
     env:
@@ -1242,11 +1320,10 @@ jobs:
           trace-id: ${{ needs.activation.outputs.setup-trace-id }}
           parent-span-id: ${{ needs.activation.outputs.setup-parent-span-id || needs.activation.outputs.setup-span-id }}
         env:
-          GH_AW_SETUP_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-bootstrap.lock.yml@${{ github.ref }}
+          GH_AW_SETUP_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-factory.lock.yml@${{ github.ref }}
           GH_AW_INFO_VERSION: "1.0.87"
           GH_AW_INFO_AWF_VERSION: "v0.28.23"
-          GH_AW_INFO_BODY_MODIFIED: "false"
           GH_AW_INFO_ENGINE_ID: "copilot"
       - name: Download agent output artifact
         id: download-agent-output
@@ -1345,16 +1422,15 @@ jobs:
         env:
           GH_AW_AGENT_OUTPUT: ${{ steps.setup-agent-output-env.outputs.GH_AW_AGENT_OUTPUT }}
           GH_AW_NOOP_MAX: "1"
-          GH_AW_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_WORKFLOW_SOURCE: "bradygaster/squad/workflows/squad-bootstrap.md@a1a8e1f4ec10b2dc08411009f29acf725d9ab515"
-          GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/bradygaster/squad/blob/a1a8e1f4ec10b2dc08411009f29acf725d9ab515/workflows/squad-bootstrap.md"
+          GH_AW_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/${{ github.repository }}/blob/${{ github.ref_name }}/.github/workflows/squad-factory.md"
           GH_AW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           GH_AW_AGENT_CONCLUSION: ${{ needs.agent.result }}
           GH_AW_NOOP_REPORT_AS_ISSUE: "false"
           GH_AW_AIC: ${{ needs.agent.outputs.aic }}
           GH_AW_THREAT_DETECTION_AIC: ${{ needs.detection.outputs.aic }}
           GH_AW_AMBIENT_CONTEXT: ${{ needs.agent.outputs.ambient_context }}
-          GH_AW_WORKFLOW_ID: "squad-bootstrap"
+          GH_AW_WORKFLOW_ID: "squad-factory"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
@@ -1369,9 +1445,8 @@ jobs:
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
           GH_AW_AGENT_OUTPUT: ${{ steps.setup-agent-output-env.outputs.GH_AW_AGENT_OUTPUT }}
-          GH_AW_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_WORKFLOW_SOURCE: "bradygaster/squad/workflows/squad-bootstrap.md@a1a8e1f4ec10b2dc08411009f29acf725d9ab515"
-          GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/bradygaster/squad/blob/a1a8e1f4ec10b2dc08411009f29acf725d9ab515/workflows/squad-bootstrap.md"
+          GH_AW_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/${{ github.repository }}/blob/${{ github.ref_name }}/.github/workflows/squad-factory.md"
           GH_AW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           GH_AW_DETECTION_CONCLUSION: ${{ needs.detection.outputs.detection_conclusion }}
           GH_AW_DETECTION_REASON: ${{ needs.detection.outputs.detection_reason }}
@@ -1390,9 +1465,8 @@ jobs:
         env:
           GH_AW_AGENT_OUTPUT: ${{ steps.setup-agent-output-env.outputs.GH_AW_AGENT_OUTPUT }}
           GH_AW_MISSING_TOOL_CREATE_ISSUE: "true"
-          GH_AW_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_WORKFLOW_SOURCE: "bradygaster/squad/workflows/squad-bootstrap.md@a1a8e1f4ec10b2dc08411009f29acf725d9ab515"
-          GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/bradygaster/squad/blob/a1a8e1f4ec10b2dc08411009f29acf725d9ab515/workflows/squad-bootstrap.md"
+          GH_AW_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/${{ github.repository }}/blob/${{ github.ref_name }}/.github/workflows/squad-factory.md"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
@@ -1408,9 +1482,8 @@ jobs:
         env:
           GH_AW_AGENT_OUTPUT: ${{ steps.setup-agent-output-env.outputs.GH_AW_AGENT_OUTPUT }}
           GH_AW_REPORT_INCOMPLETE_CREATE_ISSUE: "true"
-          GH_AW_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_WORKFLOW_SOURCE: "bradygaster/squad/workflows/squad-bootstrap.md@a1a8e1f4ec10b2dc08411009f29acf725d9ab515"
-          GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/bradygaster/squad/blob/a1a8e1f4ec10b2dc08411009f29acf725d9ab515/workflows/squad-bootstrap.md"
+          GH_AW_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/${{ github.repository }}/blob/${{ github.ref_name }}/.github/workflows/squad-factory.md"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
@@ -1426,12 +1499,11 @@ jobs:
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
           GH_AW_AGENT_OUTPUT: ${{ steps.setup-agent-output-env.outputs.GH_AW_AGENT_OUTPUT }}
-          GH_AW_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_WORKFLOW_SOURCE: "bradygaster/squad/workflows/squad-bootstrap.md@a1a8e1f4ec10b2dc08411009f29acf725d9ab515"
-          GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/bradygaster/squad/blob/a1a8e1f4ec10b2dc08411009f29acf725d9ab515/workflows/squad-bootstrap.md"
+          GH_AW_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/${{ github.repository }}/blob/${{ github.ref_name }}/.github/workflows/squad-factory.md"
           GH_AW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
           GH_AW_AGENT_CONCLUSION: ${{ needs.agent.result }}
-          GH_AW_WORKFLOW_ID: "squad-bootstrap"
+          GH_AW_WORKFLOW_ID: "squad-factory"
           GH_AW_ACTION_FAILURE_ISSUE_EXPIRES_HOURS: "168"
           GH_AW_ENGINE_ID: "copilot"
           GH_AW_CHECKOUT_PR_SUCCESS: ${{ needs.agent.outputs.checkout_pr_success }}
@@ -1459,7 +1531,6 @@ jobs:
           GH_AW_DAILY_AI_CREDITS_TOTAL: ${{ needs.activation.outputs.daily_ai_credits_total }}
           GH_AW_DAILY_AI_CREDITS_THRESHOLD: ${{ needs.activation.outputs.daily_ai_credits_threshold }}
           GH_AW_DAILY_AI_CREDITS_CONTINUE_ON_ERROR: "false"
-          GH_AW_SAFE_OUTPUT_MESSAGES: "{\"runSuccess\":\"🤖 [{workflow_name}]({run_url}) finished. Review the linked draft Cast PR and research-proposals issue before activating work.\",\"runFailure\":\"🤖 [{workflow_name}]({run_url}) failed closed. No replacement bootstrap artifact was authorized.\"}"
           GH_AW_GROUP_REPORTS: "false"
           GH_AW_FAILURE_REPORT_AS_ISSUE: "true"
           GH_AW_MISSING_TOOL_REPORT_AS_FAILURE: "true"
@@ -1473,6 +1544,25 @@ jobs:
             const { setupGlobals } = require(path.join(actionsDir, 'setup_globals.cjs'));
             setupGlobals(core, github, context, exec, io, getOctokit);
             const { main } = require(path.join(actionsDir, 'handle_agent_failure.cjs'));
+            await main();
+      - name: Report failed jobs
+        id: report_failed_jobs
+        if: always()
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        env:
+          GH_AW_AGENT_OUTPUT: ${{ steps.setup-agent-output-env.outputs.GH_AW_AGENT_OUTPUT }}
+          GH_AW_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/${{ github.repository }}/blob/${{ github.ref_name }}/.github/workflows/squad-factory.md"
+          GH_AW_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          GH_AW_REPORT_FAILED_JOBS: "true"
+        with:
+          github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
+          script: |
+            const path = require('path');
+            const actionsDir = path.join(process.env.RUNNER_TEMP, 'gh-aw', 'actions');
+            const { setupGlobals } = require(path.join(actionsDir, 'setup_globals.cjs'));
+            setupGlobals(core, github, context, exec, io, getOctokit);
+            const { main } = require(path.join(actionsDir, 'report_failed_jobs.cjs'));
             await main();
 
   detection:
@@ -1502,11 +1592,10 @@ jobs:
           trace-id: ${{ needs.activation.outputs.setup-trace-id }}
           parent-span-id: ${{ needs.activation.outputs.setup-parent-span-id || needs.activation.outputs.setup-span-id }}
         env:
-          GH_AW_SETUP_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-bootstrap.lock.yml@${{ github.ref }}
+          GH_AW_SETUP_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-factory.lock.yml@${{ github.ref }}
           GH_AW_INFO_VERSION: "1.0.87"
           GH_AW_INFO_AWF_VERSION: "v0.28.23"
-          GH_AW_INFO_BODY_MODIFIED: "false"
           GH_AW_INFO_ENGINE_ID: "copilot"
       - name: Download activation artifact
         continue-on-error: true
@@ -1579,8 +1668,8 @@ jobs:
         if: always() && steps.detection_guard.outputs.run_detection == 'true'
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
-          WORKFLOW_NAME: "Squad Bootstrap"
-          WORKFLOW_DESCRIPTION: "Create one validated repository-derived Squad Cast PR and one linked research-proposals issue"
+          WORKFLOW_NAME: "Squad Factory"
+          WORKFLOW_DESCRIPTION: "Turn repository signals into bounded Squad research, planning, activation, and implementation work"
           HAS_PATCH: ${{ needs.agent.outputs.has_patch }}
           GH_AW_DETECTION_CONTINUE_ON_ERROR: "true"
           GH_AW_DETECTION_SKIP_PROMPT_SUMMARY: "true"
@@ -1649,8 +1738,8 @@ jobs:
           RUNNER_TEMP: ${{ runner.temp }}
           S2STOKENS: true
           TRACEPARENT: ${{ env.GITHUB_AW_OTEL_TRACE_ID != '' && env.GITHUB_AW_OTEL_PARENT_SPAN_ID != '' && format('00-{0}-{1}-01', env.GITHUB_AW_OTEL_TRACE_ID, env.GITHUB_AW_OTEL_PARENT_SPAN_ID) || '' }}
-          WORKFLOW_NAME: "Squad Bootstrap"
-          WORKFLOW_DESCRIPTION: "Create one validated repository-derived Squad Cast PR and one linked research-proposals issue"
+          WORKFLOW_NAME: "Squad Factory"
+          WORKFLOW_DESCRIPTION: "Turn repository signals into bounded Squad research, planning, activation, and implementation work"
           HAS_PATCH: ${{ needs.agent.outputs.has_patch }}
           GH_AW_DETECTION_CONTINUE_ON_ERROR: "true"
         run: |
@@ -1762,318 +1851,9 @@ jobs:
         run: |
           bash "${RUNNER_TEMP}/gh-aw/actions/conclude_threat_detection.sh" /tmp/gh-aw/threat-detection/detection_result.json
 
-  materialize_bootstrap:
-    name: Materialize validated Squad bootstrap
-    needs:
-      - agent
-      - detection
-      - safe_outputs
-    if: (!cancelled()) && needs.agent.result != 'skipped' && contains(needs.agent.outputs.output_types, 'materialize_bootstrap')
-    runs-on: ubuntu-slim
-    permissions:
-      contents: write
-      issues: write
-      pull-requests: write
-    steps:
-      - name: Download agent output artifact
-        continue-on-error: true
-        uses: actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c # v8.0.1
-        with:
-          pattern: "{agent,agent-output-fallback}"
-          merge-multiple: true
-          path: ${{ runner.temp }}/gh-aw/safe-jobs/
-      - name: Checkout trusted default branch
-        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        env:
-          GH_AW_AGENT_OUTPUT: ${{ runner.temp }}/gh-aw/safe-jobs/agent_output.json
-        with:
-          path: bootstrap-repo
-          persist-credentials: false
-          ref: refs/heads/${{ github.event.repository.default_branch }}
-      - name: Validate and materialize both artifacts
-        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0 (source v9)
-        env:
-          GH_AW_AGENT_OUTPUT: ${{ runner.temp }}/gh-aw/safe-jobs/agent_output.json
-          SQUAD_BOOTSTRAP_DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
-        with:
-          script: |
-            const { mkdirSync, readFileSync, writeFileSync } = await import('node:fs');
-            const { dirname, join } = await import('node:path');
-            const { pathToFileURL } = await import('node:url');
-
-            const checkout = join(process.env.GITHUB_WORKSPACE, 'bootstrap-repo');
-            const stateModule = await import(pathToFileURL(join(
-              checkout,
-              '.github/workflows/shared/squad-bootstrap-validator.mjs',
-            )).href);
-            const validatorModule = await import(pathToFileURL(join(
-              checkout,
-              '.github/workflows/shared/squad-bootstrap-validator.mjs',
-            )).href);
-            const output = JSON.parse(readFileSync(process.env.GH_AW_AGENT_OUTPUT, 'utf8'));
-            const items = (output.items || []).filter(
-              (item) => item.type === 'materialize_bootstrap',
-            );
-            if (items.length !== 1) {
-              core.setFailed(`Expected exactly one materialize_bootstrap item, found ${items.length}.`);
-              return;
-            }
-            let payloadText;
-            let payload;
-            try {
-              payloadText = validatorModule.reconstructBootstrapPayload(items[0]);
-              payload = JSON.parse(payloadText);
-            } catch (error) {
-              core.setFailed(`Bootstrap payload transport is invalid: ${error.message}`);
-              return;
-            }
-            const payloadPath = join(checkout, '.github/workflows/squad-bootstrap-payload.json');
-            for (const file of payload.files || []) {
-              const target = join(checkout, ...String(file.path || '').split('/'));
-              mkdirSync(dirname(target), { recursive: true });
-              writeFileSync(target, String(file.content || ''));
-            }
-            writeFileSync(payloadPath, payloadText);
-
-            const validate = (candidate, linkMode) => {
-              writeFileSync(payloadPath, `${JSON.stringify(candidate)}\n`);
-              const errors = validatorModule.validateBootstrapPayload({
-                root: checkout,
-                payloadPath,
-                repository: context.repo.owner + '/' + context.repo.repo,
-                defaultBranch: process.env.SQUAD_BOOTSTRAP_DEFAULT_BRANCH,
-                linkMode,
-              });
-              if (errors.length > 0) {
-                throw new Error(`Squad bootstrap validation failed:\n${errors.map((error) => `- ${error}`).join('\n')}`);
-              }
-            };
-            validate(payload, 'placeholder');
-
-            const listState = async () => {
-              const pullRequests = await github.paginate(github.rest.pulls.list, {
-                ...context.repo,
-                state: 'all',
-                per_page: 100,
-              });
-              const issues = (await github.paginate(github.rest.issues.listForRepo, {
-                ...context.repo,
-                state: 'all',
-                per_page: 100,
-              })).filter((issue) => !issue.pull_request);
-              const preliminary = stateModule.classifyBootstrapState({
-                pullRequests,
-                issues,
-                defaultBranch: process.env.SQUAD_BOOTSTRAP_DEFAULT_BRANCH,
-              });
-              const comments = preliminary.issue
-                ? await github.paginate(github.rest.issues.listComments, {
-                    ...context.repo,
-                    issue_number: preliminary.issue.number,
-                    per_page: 100,
-                  })
-                : [];
-              return {
-                pullRequests,
-                issues,
-                comments,
-                state: stateModule.classifyBootstrapState({
-                  pullRequests,
-                  issues,
-                  comments,
-                  defaultBranch: process.env.SQUAD_BOOTSTRAP_DEFAULT_BRANCH,
-                }),
-              };
-            };
-
-            let snapshot = await listState();
-            if (snapshot.state.action === 'opt_out') {
-              core.info('A closed-unmerged bootstrap Cast PR records human opt-out; no replacement was created.');
-              return;
-            }
-            if (snapshot.state.action === 'noop') {
-              core.info('The deterministic Cast PR, research-proposals issue, and research artifact already exist.');
-              return;
-            }
-
-            const getRef = async (ref) => {
-              try {
-                return (await github.rest.git.getRef({ ...context.repo, ref })).data;
-              } catch (error) {
-                if (error.status === 404) return null;
-                throw error;
-              }
-            };
-            const assertRemotePayload = async (ref) => {
-              for (const file of payload.files) {
-                const response = await github.rest.repos.getContent({
-                  ...context.repo,
-                  path: file.path,
-                  ref,
-                });
-                if (Array.isArray(response.data) || response.data.type !== 'file') {
-                  throw new Error(`Bootstrap branch path is not a file: ${file.path}`);
-                }
-                const remote = Buffer.from(response.data.content, 'base64').toString('utf8').replace(/\r\n/g, '\n');
-                if (remote !== String(file.content).replace(/\r\n/g, '\n')) {
-                  throw new Error(`Existing bootstrap branch diverges at ${file.path}; refusing replacement.`);
-                }
-              }
-              if (ref !== process.env.SQUAD_BOOTSTRAP_DEFAULT_BRANCH) {
-                const comparison = await github.rest.repos.compareCommitsWithBasehead({
-                  ...context.repo,
-                  basehead: `${process.env.SQUAD_BOOTSTRAP_DEFAULT_BRANCH}...${ref}`,
-                  per_page: 100,
-                });
-                const changed = (comparison.data.files || []).map((file) => file.filename).sort();
-                const allowed = payload.files.map((file) => file.path).sort();
-                if (JSON.stringify(changed) !== JSON.stringify(allowed)) {
-                  throw new Error(`Existing bootstrap branch changed files outside the validated payload: ${changed.join(', ')}`);
-                }
-              }
-            };
-
-            let pullRequest = snapshot.state.pull_request;
-            if (!pullRequest) {
-              const branchRefName = `heads/${stateModule.BOOTSTRAP_BRANCH}`;
-              const existingRef = await getRef(branchRefName);
-              if (existingRef) {
-                await assertRemotePayload(stateModule.BOOTSTRAP_BRANCH);
-              } else {
-                const baseRef = await github.rest.git.getRef({
-                  ...context.repo,
-                  ref: `heads/${process.env.SQUAD_BOOTSTRAP_DEFAULT_BRANCH}`,
-                });
-                const baseCommit = await github.rest.git.getCommit({
-                  ...context.repo,
-                  commit_sha: baseRef.data.object.sha,
-                });
-                const tree = [];
-                for (const file of payload.files) {
-                  const blob = await github.rest.git.createBlob({
-                    ...context.repo,
-                    content: Buffer.from(file.content, 'utf8').toString('base64'),
-                    encoding: 'base64',
-                  });
-                  tree.push({
-                    path: file.path,
-                    mode: '100644',
-                    type: 'blob',
-                    sha: blob.data.sha,
-                  });
-                }
-                const createdTree = await github.rest.git.createTree({
-                  ...context.repo,
-                  base_tree: baseCommit.data.tree.sha,
-                  tree,
-                });
-                const commit = await github.rest.git.createCommit({
-                  ...context.repo,
-                  message: 'chore(squad): add repository-derived Squad',
-                  tree: createdTree.data.sha,
-                  parents: [baseRef.data.object.sha],
-                });
-                await github.rest.git.createRef({
-                  ...context.repo,
-                  ref: `refs/heads/${stateModule.BOOTSTRAP_BRANCH}`,
-                  sha: commit.data.sha,
-                });
-              }
-              const created = await github.rest.pulls.create({
-                ...context.repo,
-                title: stateModule.BOOTSTRAP_PR_TITLE,
-                head: stateModule.BOOTSTRAP_BRANCH,
-                base: process.env.SQUAD_BOOTSTRAP_DEFAULT_BRANCH,
-                body: payload.pr_body,
-                draft: true,
-              });
-              pullRequest = {
-                number: created.data.number,
-                state: created.data.state,
-                merged: false,
-                url: created.data.html_url,
-              };
-            } else {
-              const ref = pullRequest.merged
-                ? process.env.SQUAD_BOOTSTRAP_DEFAULT_BRANCH
-                : stateModule.BOOTSTRAP_BRANCH;
-              await assertRemotePayload(ref);
-            }
-
-            if (!pullRequest?.url) {
-              throw new Error('The deterministic Cast PR URL is unavailable after materialization.');
-            }
-            const finalPayload = {
-              ...payload,
-              issue_body: payload.issue_body.replace('{{CAST_PR_URL}}', pullRequest.url),
-            };
-            validate(finalPayload, 'resolved');
-
-            snapshot = await listState();
-            let issueNumber;
-            if (snapshot.state.issue) {
-              if (snapshot.state.issue.state !== 'open') {
-                core.info(`Bootstrap issue #${snapshot.state.issue.number} is closed; preserving human state.`);
-                return;
-              }
-              issueNumber = snapshot.state.issue.number;
-              await github.rest.issues.update({
-                ...context.repo,
-                issue_number: issueNumber,
-                title: stateModule.BOOTSTRAP_ISSUE_TITLE,
-                body: finalPayload.issue_body,
-              });
-            } else {
-              const createdIssue = await github.rest.issues.create({
-                ...context.repo,
-                title: stateModule.BOOTSTRAP_ISSUE_TITLE,
-                body: finalPayload.issue_body,
-              });
-              issueNumber = createdIssue.data.number;
-            }
-
-            const researchBody = validatorModule.createBootstrapResearchComment(
-              finalPayload.issue_body,
-              issueNumber,
-            );
-            const comments = await github.paginate(github.rest.issues.listComments, {
-              ...context.repo,
-              issue_number: issueNumber,
-              per_page: 100,
-            });
-            const researchArtifacts = validatorModule.findBootstrapResearchArtifacts(
-              comments,
-              issueNumber,
-            );
-            const currentResearch = researchArtifacts.at(-1);
-            if (currentResearch) {
-              if (validatorModule.isBootstrapResearchSeed(currentResearch)) {
-                await github.rest.issues.updateComment({
-                  ...context.repo,
-                  comment_id: currentResearch.id,
-                  body: researchBody,
-                });
-              } else {
-                core.info(
-                  `Preserving focused research artifact comment #${currentResearch.id}.`,
-                );
-              }
-              for (const duplicate of researchArtifacts.slice(0, -1)) {
-                await github.rest.issues.deleteComment({
-                  ...context.repo,
-                  comment_id: duplicate.id,
-                });
-              }
-            } else {
-              await github.rest.issues.createComment({
-                ...context.repo,
-                issue_number: issueNumber,
-                body: researchBody,
-              });
-            }
-
   pre_activation:
-    if: github.ref_name == github.event.repository.default_branch
+    if: >
+      github.event_name != 'issue_comment' || contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.comment.author_association)
     runs-on: ubuntu-slim
     env:
       GH_AW_RUNTIME_FEATURES: ${{ vars.GH_AW_RUNTIME_FEATURES }}
@@ -2091,11 +1871,10 @@ jobs:
           destination: ${{ runner.temp }}/gh-aw/actions
           job-name: ${{ github.job }}
         env:
-          GH_AW_SETUP_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-bootstrap.lock.yml@${{ github.ref }}
+          GH_AW_SETUP_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-factory.lock.yml@${{ github.ref }}
           GH_AW_INFO_VERSION: "1.0.87"
           GH_AW_INFO_AWF_VERSION: "v0.28.23"
-          GH_AW_INFO_BODY_MODIFIED: "false"
           GH_AW_INFO_ENGINE_ID: "copilot"
       - name: Check team membership for workflow
         id: check_membership
@@ -2120,29 +1899,35 @@ jobs:
     if: (!cancelled()) && needs.agent.result != 'skipped' && needs.detection.result == 'success'
     runs-on: ubuntu-slim
     permissions:
+      actions: write
       issues: write
+      pull-requests: write
     timeout-minutes: 45
     env:
       GH_AW_AGENT_AIC: ${{ needs.agent.outputs.aic }}
       GH_AW_AIC: ${{ needs.agent.outputs.aic }}
       GH_AW_AMBIENT_CONTEXT: ${{ needs.agent.outputs.ambient_context }}
-      GH_AW_CALLER_WORKFLOW_ID: "${{ github.repository }}/squad-bootstrap"
+      GH_AW_CALLER_WORKFLOW_ID: "${{ github.repository }}/squad-factory"
       GH_AW_DETECTION_CONCLUSION: ${{ needs.detection.outputs.detection_conclusion }}
       GH_AW_DETECTION_REASON: ${{ needs.detection.outputs.detection_reason }}
       GH_AW_ENGINE_ID: "copilot"
       GH_AW_ENGINE_MODEL: ${{ needs.agent.outputs.model }}
+      GH_AW_HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
       GH_AW_RUNTIME_FEATURES: ${{ vars.GH_AW_RUNTIME_FEATURES }}
-      GH_AW_SAFE_OUTPUT_MESSAGES: "{\"runSuccess\":\"🤖 [{workflow_name}]({run_url}) finished. Review the linked draft Cast PR and research-proposals issue before activating work.\",\"runFailure\":\"🤖 [{workflow_name}]({run_url}) failed closed. No replacement bootstrap artifact was authorized.\"}"
       GH_AW_THREAT_DETECTION_AIC: ${{ needs.detection.outputs.aic }}
-      GH_AW_WORKFLOW_ID: "squad-bootstrap"
-      GH_AW_WORKFLOW_NAME: "Squad Bootstrap"
-      GH_AW_WORKFLOW_SOURCE: "bradygaster/squad/workflows/squad-bootstrap.md@a1a8e1f4ec10b2dc08411009f29acf725d9ab515"
-      GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/bradygaster/squad/blob/a1a8e1f4ec10b2dc08411009f29acf725d9ab515/workflows/squad-bootstrap.md"
+      GH_AW_WORKFLOW_EMOJI: "🏭"
+      GH_AW_WORKFLOW_ID: "squad-factory"
+      GH_AW_WORKFLOW_NAME: "Squad Factory"
+      GH_AW_WORKFLOW_SOURCE_URL: "${{ github.server_url }}/${{ github.repository }}/blob/${{ github.ref_name }}/.github/workflows/squad-factory.md"
     outputs:
       code_push_failure_count: ${{ steps.process_safe_outputs.outputs.code_push_failure_count }}
       code_push_failure_errors: ${{ steps.process_safe_outputs.outputs.code_push_failure_errors }}
+      comment_id: ${{ steps.process_safe_outputs.outputs.comment_id }}
+      comment_url: ${{ steps.process_safe_outputs.outputs.comment_url }}
       create_discussion_error_count: ${{ steps.process_safe_outputs.outputs.create_discussion_error_count }}
       create_discussion_errors: ${{ steps.process_safe_outputs.outputs.create_discussion_errors }}
+      created_issue_number: ${{ steps.process_safe_outputs.outputs.created_issue_number }}
+      created_issue_url: ${{ steps.process_safe_outputs.outputs.created_issue_url }}
       process_safe_outputs_items_applied: ${{ steps.process_safe_outputs.outputs.items_applied }}
       process_safe_outputs_items_cancelled: ${{ steps.process_safe_outputs.outputs.items_cancelled }}
       process_safe_outputs_items_deferred: ${{ steps.process_safe_outputs.outputs.items_deferred }}
@@ -2162,11 +1947,10 @@ jobs:
           trace-id: ${{ needs.activation.outputs.setup-trace-id }}
           parent-span-id: ${{ needs.activation.outputs.setup-parent-span-id || needs.activation.outputs.setup-span-id }}
         env:
-          GH_AW_SETUP_WORKFLOW_NAME: "Squad Bootstrap"
-          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-bootstrap.lock.yml@${{ github.ref }}
+          GH_AW_SETUP_WORKFLOW_NAME: "Squad Factory"
+          GH_AW_CURRENT_WORKFLOW_REF: ${{ github.repository }}/.github/workflows/squad-factory.lock.yml@${{ github.ref }}
           GH_AW_INFO_VERSION: "1.0.87"
           GH_AW_INFO_AWF_VERSION: "v0.28.23"
-          GH_AW_INFO_BODY_MODIFIED: "false"
           GH_AW_INFO_ENGINE_ID: "copilot"
       - name: Mask OTLP telemetry headers
         run: bash "${RUNNER_TEMP}/gh-aw/actions/mask_otlp_headers.sh"
@@ -2205,8 +1989,7 @@ jobs:
           GH_AW_ALLOWED_DOMAINS: "api.snapcraft.io,archive.ubuntu.com,azure.archive.ubuntu.com,crl.geotrust.com,crl.globalsign.com,crl.identrust.com,crl.sectigo.com,crl.thawte.com,crl.usertrust.com,crl.verisign.com,crl3.digicert.com,crl4.digicert.com,crls.ssl.com,json-schema.org,json.schemastore.org,keyserver.ubuntu.com,ocsp.digicert.com,ocsp.geotrust.com,ocsp.globalsign.com,ocsp.identrust.com,ocsp.sectigo.com,ocsp.ssl.com,ocsp.thawte.com,ocsp.usertrust.com,ocsp.verisign.com,packagecloud.io,packages.cloud.google.com,packages.microsoft.com,ppa.launchpad.net,s.symcb.com,s.symcd.com,security.ubuntu.com,ts-crl.ws.symantec.com,ts-ocsp.ws.symantec.com,www.googleapis.com"
           GITHUB_SERVER_URL: ${{ github.server_url }}
           GITHUB_API_URL: ${{ github.api_url }}
-          GH_AW_SAFE_OUTPUT_JOBS: "{\"materialize_bootstrap\":\"\"}"
-          GH_AW_SAFE_OUTPUTS_HANDLER_CONFIG: "{\"create_report_incomplete_issue\":{},\"missing_data\":{},\"missing_tool\":{},\"noop\":{\"max\":1,\"report-as-issue\":\"false\"},\"report_incomplete\":{}}"
+          GH_AW_SAFE_OUTPUTS_HANDLER_CONFIG: "{\"add_comment\":{\"max\":1,\"target\":\"*\"},\"create_issue\":{\"deduplicate_by_title\":true,\"labels\":[\"factory-signal\"],\"max\":1,\"title_prefix\":\"[factory] \"},\"create_report_incomplete_issue\":{},\"dispatch_workflow\":{\"allowed_refs\":[\"refs/heads/${{ github.event.repository.default_branch }}\"],\"aw_context_workflows\":[\"squad\"],\"max\":1,\"target-ref\":\"${{ github.event.repository.default_branch }}\",\"workflow_files\":{\"squad\":\".lock.yml\"},\"workflows\":[\"squad\"]},\"missing_data\":{},\"missing_tool\":{},\"noop\":{\"max\":1,\"report-as-issue\":\"false\"},\"report_incomplete\":{}}"
         with:
           github-token: ${{ secrets.GH_AW_GITHUB_TOKEN || secrets.GITHUB_TOKEN }}
           script: |

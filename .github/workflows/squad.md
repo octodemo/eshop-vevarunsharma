@@ -49,6 +49,7 @@ imports:
   - shared/squad-planning-policy.md
 resources:
   - shared/squad-cast-validator.mjs
+  - shared/squad-cast-validator.sha256
   - shared/squad-bootstrap-validator.mjs
   - shared/squad-improvement-gate.mjs
   - shared/squad-retro-evidence.mjs
@@ -102,6 +103,7 @@ pre-agent-steps:
 
       stderr_file="${GITHUB_WORKSPACE:?}/.github/workflows/squad-cast-validator.stderr"
       validator_script="${GITHUB_WORKSPACE:?}/.github/workflows/shared/squad-cast-validator.mjs"
+      validator_hash="${GITHUB_WORKSPACE:?}/.github/workflows/shared/squad-cast-validator.sha256"
       validator_output="${GITHUB_WORKSPACE:?}/.github/workflows/squad-cast-validator.stdout"
       expected_output="${GITHUB_WORKSPACE:?}/.github/workflows/squad-cast-validator.expected"
 
@@ -135,7 +137,15 @@ pre-agent-steps:
       fi
       validator_script="$(cd "$(dirname "$validator_script")" && pwd -P)/$(basename "$validator_script")"
 
-      validator_expected_sha256="62fbf47b51639fd1878c143e5176ee3099e390065997411511e9d483d467bbce"
+      if [ ! -r "$validator_hash" ]; then
+        printf 'Cast validator digest is missing or unreadable: %s\n' "$validator_hash" > "$stderr_file"
+        fail_cast "integrity" "SHA-256 authentication" "1"
+      fi
+      validator_expected_sha256="$(tr -d '\r\n' < "$validator_hash")"
+      if ! [[ "$validator_expected_sha256" =~ ^[0-9a-f]{64}$ ]]; then
+        printf 'Cast validator digest is invalid: %s\n' "$validator_hash" > "$stderr_file"
+        fail_cast "integrity" "SHA-256 authentication" "1"
+      fi
       : > "$stderr_file"
       validator_actual_sha256="$(
         node -e 'const c=require("node:crypto"),f=require("node:fs");process.stdout.write(c.createHash("sha256").update(f.readFileSync(process.argv[1])).digest("hex"))' \
