@@ -10,6 +10,7 @@ on:
     paths:
       - ".github/workflows/squad-bootstrap.md"
       - ".github/workflows/squad-bootstrap.lock.yml"
+  schedule: every 3 hours
   workflow_dispatch:
 if: github.ref_name == github.event.repository.default_branch
 permissions:
