@@ -902,6 +902,10 @@ jobs:
                         "description": "Originating agentic workflow context",
                         "type": "string"
                       },
+                      "issue_number": {
+                        "description": "Optional issue target for a lifecycle-state update",
+                        "type": "string"
+                      },
                       "ref": {
                         "description": "The git ref (branch, tag, or SHA) to dispatch the workflow on. Must match one of the configured allowed ref patterns: refs/heads/${GH_AW_GITHUB_EVENT_REPOSITORY_DEFAULT_BRANCH}. If omitted, the ref is resolved from the triggering context, including the pull request head for pull request comments.",
                         "type": "string"
