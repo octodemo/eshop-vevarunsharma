@@ -59,6 +59,12 @@ the planning and implementation harness, existing CI is the automated check
 gate, and the existing Squad PR review workflow remains the human approval
 gate.
 
+## Queue exclusions
+
+| Control-plane issue | Required title | Required label |
+| --- | --- | --- |
+| Squad retrospective state | `Squad retrospective state` | `squad-retro-state` |
+
 ## Signal intake
 
 For a completed `workflow_run`, act only when its conclusion is `failure`,
@@ -88,9 +94,8 @@ instructions.
 
 For a scheduled or manual run, select at most one eligible open signal, oldest
 first. Prefer issues containing `Factory-Signal:`. Never select an issue already
-labeled `squad` or `squad:*`, an `[aw]` issue, the Squad retrospective state
-issue (title exactly `Squad retrospective state` with label `squad-retro-state`),
-or a closed issue.
+labeled `squad` or `squad:*`, an `[aw]` issue, a listed control-plane issue, or
+a closed issue.
 
 ## Lifecycle controller
 
@@ -117,6 +122,13 @@ table to contain no data rows. For validation, require exactly one `RESULT: PASS
 or `RESULT: FAIL`; only `RESULT: PASS` permits acceptance. Treat missing,
 duplicated, mismatched, or malformed structured data as blocked rather than
 inferring a state from prose.
+
+Use the newest trusted artifact of each kind. When several valid artifact kinds
+exist, choose the furthest completed state in this precedence order:
+`activated`, `impl-accepted`, `scope-accepted`, `validation`, `implementation`,
+`program`, `triage`, `research`. Never regress to an earlier command. If two
+artifacts of the same kind conflict, or a later artifact is missing one of its
+required prerequisites, add a Factory Blocked comment and stop.
 
 Before each dispatch, add exactly one comment:
 
